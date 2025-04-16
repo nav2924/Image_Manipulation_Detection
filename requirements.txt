@@ -1,0 +1,6 @@
+torch
+pytorch_lightning
+matplotlib
+numpy
+tensorflow==2.15.0
+
