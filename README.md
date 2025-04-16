@@ -69,17 +69,6 @@ obtain the target copy by thresholding the difference between the manipulated im
 obtain the source copy by matching the target copy on the manipulated image using SIFT/ORB/SURF features
 manually verify all obtained masks
 
-#### USCISI-CMFD Dataset
-
-This copy-move forgery detection(CMFD) dataset relies on
-
-MIT SUN2012 Database
-MS COCO Dataset
-More precisely, we synthesize a copy-move forgery sample using the following steps
-
-select a sample in the two above dataset
-select one of its object polygon
-use both sample image and polgyon mask to synthesize a sample
 
 ### Model
 
@@ -94,9 +83,6 @@ use both sample image and polgyon mask to synthesize a sample
 ![image](https://user-images.githubusercontent.com/49101362/153304475-3495369e-67cd-4512-ae9b-0242accb828c.png)
 
 
-## Examples and Demonstration 
-
-Demo can be found here: https://huggingface.co/spaces/gagan3012/Image_Manipulation_detection
 
 
 
@@ -104,25 +90,6 @@ Demo can be found here: https://huggingface.co/spaces/gagan3012/Image_Manipulati
 
 
 
-
-
-citation
-```
-@inproceedings{wu2018eccv,
-  title={BusterNet: Detecting Image Copy-Move Forgery With Source/Target Localization},
-  author={Wu, Yue, and AbdAlmageed, Wael and Natarajan, Prem},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2018},
-  organization={Springer},
-}
-
-  @inproceedings{Wu2019ManTraNet,
-      title={ManTra-Net: Manipulation Tracing Network For Detection And Localization of Image ForgeriesWith Anomalous Features},
-      author={Yue Wu, Wael AbdAlmageed, and Premkumar Natarajan},
-      journal={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-      year={2019}
-  }
-```
 
 
 
